@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @billy-enrizky
 - 👀 I’m interested in Data Science and Software Engineering  
-- 🌱 I’m currently learning NextJs and TypeScript
+- 🌱 I’m currently mastering MySQL, Tableau, R and Python for Data Science
 - 💞️ I’m looking to collaborate on any Developer Projects
 - 📫 How to reach me: DM me @Instagram: billy.enrizy
 
