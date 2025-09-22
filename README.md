@@ -2,13 +2,7 @@
 
 ## 👋 About Me
 
-Hello! I'm **Muhammad Enrizky Brillian**, a results‑driven machine learning and data science professional graduating May 2026, with deep expertise in building and deploying scalable AI solutions. 
-
-🎓 **Data Science and Machine Learning Specialist** | **Computer Science Major** | **Economics Minor**  
-🏫 **University of Toronto** (Funded with Advanced Indonesian Scholarship - BIM ~$380,000)  
-📍 **Toronto, Ontario, Canada**  
-📧 **billy.suharno@mail.utoronto.ca**  
-📱 **+14167317583**
+Hello! I'm **Muhammad Enrizky Brillian**, a results‑driven machine learning and data science professional graduating May 2026, with deep expertise in building and deploying scalable AI solutions. I have a strong foundation in machine learning, data engineering, and cloud technologies, complemented by hands-on experience in developing innovative AI applications. My passion lies in leveraging data to solve complex problems and drive business value.
 
 ## 🚀 What I Do
 
@@ -127,15 +121,4 @@ Trained LSTM neural network with 77,160 parameters achieving 98.61% accuracy, en
 - 🤖 **Machine Learning**: Develop predictive models and AI solutions
 - 💼 **Business Analysis**: Optimize operations through data-driven insights
 - 👨‍🏫 **Teaching & Mentoring**: Academic support in Data Science, Statistics, and Calculus
-
-## 📞 Let's Connect!
-
-I'm always open to discussing exciting opportunities in **Machine Learning**, **Data Science**, and **AI Development**. Whether you're looking for collaboration on innovative projects or need expertise in building scalable AI solutions, I'd love to hear from you!
-
-📧 **Email**: billy.suharno@mail.utoronto.ca  
-🌐 **Portfolio**: [https://billy-enrizky.github.io/portfolio/](https://billy-enrizky.github.io/portfolio/)  
-💼 **LinkedIn**: [Muhammad Enrizky Brillian](https://linkedin.com/in/muhammad-enrizky-brillian)
-
 ---
-
-⭐ **Fun Fact**: I've secured over $300K in contracts through AI solutions and processed 122GB of medical imaging data! Currently graduating May 2026 and ready to make an impact in the AI/ML industry.
