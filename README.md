@@ -1,11 +1,5 @@
 # Muhammad Enrizky Brillian - Machine Learning Developer & Data Scientist
 
-<div align="center">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=billy-enrizky&label=Profile%20views&color=0e75b6&style=flat)
-  
-</div>
-
 ## 👋 About Me
 
 Hello! I'm **Muhammad Enrizky Brillian**, a results‑driven machine learning and data science professional graduating May 2026, with deep expertise in building and deploying scalable AI solutions. 
