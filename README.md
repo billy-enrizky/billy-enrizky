@@ -109,17 +109,6 @@ Implemented bidirectional LSTM with attention mechanisms achieving BLEU score of
 
 Trained LSTM neural network with 77,160 parameters achieving 98.61% accuracy, engineered MFCC preprocessing pipeline with Streamlit interface.
 
-## GitHub Stats
-
-<div align="center">
-
-<!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=billy-enrizky&show_icons=true&theme=radical) -->
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=billy-enrizky\&layout=compact\&theme=radical)
-
-<!-- ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=billy-enrizky&theme=radical) -->
-
-</div>
 
 ## Education
 
