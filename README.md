@@ -18,6 +18,7 @@ I work at IBM on multi-agent systems, RAG, browser automation, and cross-cloud A
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React Native](https://img.shields.io/badge/-React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Podman](https://img.shields.io/badge/-Podman-892CA0?style=flat-square&logo=podman&logoColor=white)
 ![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
@@ -74,6 +75,6 @@ Data Science and Machine Learning Specialist, Computer Science Major, Economics 
 - CV: [View Resume](https://drive.google.com/file/d/1pZ4wwgsJQ1twUtO7Kq654LSxjkMvuhKg/view?usp=sharing)
 - LinkedIn: [linkedin.com/in/enrizky-brillian](https://www.linkedin.com/in/enrizky-brillian/)
 - GitHub: [github.com/billy-enrizky](https://github.com/billy-enrizky)
-- Email: [billy.suharno@mail.utoronto.ca](mailto:billy.suharno@mail.utoronto.ca)
+- Email: [billy.suharno@gmail.com](mailto:billy.suharno@gmail.com)
 
 If you are building agentic AI, applied machine learning systems, or production AI products, feel free to connect.
