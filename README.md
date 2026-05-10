@@ -66,8 +66,7 @@ I work at IBM on multi-agent systems, RAG, browser automation, and cross-cloud A
 Honors Bachelor of Science with Co-op  
 Data Science and Machine Learning Specialist, Computer Science Major, Economics Minor
 
-**cGPA:** 3.91/4.00  
-**Awards:** Advanced Indonesian Scholarship recipient (approximately $380K), Dean's List in 2023, 2024, and 2025
+**Awards:** Full-ride Advanced Indonesian Scholarship recipient (approximately $380K), Dean's List in 2023, 2024, and 2025
 
 ## Connect
 
