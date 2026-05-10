@@ -8,14 +8,24 @@ I work at IBM on multi-agent systems, RAG, browser automation, and cross-cloud A
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React Native](https://img.shields.io/badge/-React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
+![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/-LangGraph-0F172A?style=flat-square&logo=langgraph&logoColor=white)
+![vLLM](https://img.shields.io/badge/-vLLM-4B5563?style=flat-square&logo=vllm&logoColor=white)
+![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![llama.cpp](https://img.shields.io/badge/-llama.cpp-4F46E5?style=flat-square&logo=cplusplus&logoColor=white)
+![Unsloth](https://img.shields.io/badge/-Unsloth-111827?style=flat-square&logo=unsloth&logoColor=white)
 
 ## Highlights
 
@@ -40,10 +50,14 @@ I work at IBM on multi-agent systems, RAG, browser automation, and cross-cloud A
 
 ## Experience
 
-- **Machine Learning Developer**, IBM
-- **Machine Learning Research Student**, Toronto General Hospital / University Health Network
-- **Data Scientist**, Sanofi
-- **Full Stack Developer Intern**, Leslie Dan Faculty of Pharmacy, University of Toronto
+- **Machine Learning Developer, IBM**
+  Built multi-agent AI systems across AWS, multimodal RAG, cross-cloud interoperability, and agentic browser automation for enterprise use cases.
+- **Machine Learning Research Student, Toronto General Hospital / UHN**
+  Developed multimodal and deep learning systems for clinical prediction, including pathology-slide pipelines and survival prediction models across multi-center datasets.
+- **Data Scientist, Sanofi**
+  Built ETL and self-service analytics workflows on Python, SQL, Snowflake, and Streamlit, processing billions of rows for vaccine manufacturing operations.
+- **Full Stack Developer Intern, Leslie Dan Faculty of Pharmacy, University of Toronto**
+  Built an LLM-powered paper-screening agent and a full-stack platform with Node.js, React, Next.js, and TypeScript.
 
 ## Education
 
@@ -57,6 +71,7 @@ Data Science and Machine Learning Specialist, Computer Science Major, Economics 
 ## Connect
 
 - Portfolio: [billy-enrizky.github.io/portfolio](https://billy-enrizky.github.io/portfolio/)
+- CV: [View Resume](https://drive.google.com/file/d/1pZ4wwgsJQ1twUtO7Kq654LSxjkMvuhKg/view?usp=sharing)
 - LinkedIn: [linkedin.com/in/enrizky-brillian](https://www.linkedin.com/in/enrizky-brillian/)
 - GitHub: [github.com/billy-enrizky](https://github.com/billy-enrizky)
 - Email: [billy.suharno@mail.utoronto.ca](mailto:billy.suharno@mail.utoronto.ca)
