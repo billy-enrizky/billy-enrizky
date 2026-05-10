@@ -1,128 +1,64 @@
-# Muhammad Enrizky Brillian - Machine Learning Developer & Data Scientist
+# Muhammad Enrizky Brillian
 
-## About Me
+Machine Learning Developer building agentic AI systems, multimodal ML products, and production-grade data workflows.
 
-Hello! I'm **Muhammad Enrizky Brillian**, a results-driven machine learning and data science professional graduating May 2026, with deep expertise in building and deploying scalable AI solutions. I have a strong foundation in machine learning, data engineering, and cloud technologies, complemented by hands-on experience in developing innovative AI applications. My passion lies in leveraging data to solve complex problems and drive business value.
+I work at IBM on multi-agent systems, RAG, browser automation, and cross-cloud AI infrastructure. I also conduct medical AI research with Toronto General Hospital at UHN, where I build multimodal and deep learning systems for clinical prediction.
 
-## What I Do
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React Native](https://img.shields.io/badge/-React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-I specialize in building end-to-end AI solutions with expertise in NumPy, Pandas, Scikit-Learn, PyTorch, TensorFlow, Keras, LangChain, Hugging Face, PySpark, AWS, GCP, SQL and React/TypeScript. As a Machine Learning Developer at IBM, I've architected multi-agent Text-to-SQL pipelines achieving 93% accuracy and delivered multimodal RAG systems with 97% relevancy, securing over $300K in contracts.
+## Highlights
 
-## Connect With Me
+- Built a multi-agent Text-to-SQL system on AWS that reached **93% accuracy** in **8 weeks** and supported a **$300K+ enterprise contract**.
+- Developed a **multimodal agentic RAG** system with **97% answer relevancy** and cross-modal retrieval across text and image data.
+- Built a **cross-cloud agent interoperability** platform connecting **Azure Foundry**, **AWS Bedrock AgentCore**, and **LangGraph**, reducing API calls by **73%**.
+- Researched and engineered **OpenBrowser**, an agentic browser framework for SAP automation that benchmarked at **3x cheaper** and **20% faster** through a DOM-first CDP approach.
+- Built data workflows at **Sanofi** that processed **billions of rows** and reduced manual reporting cycles from **days to seconds**.
 
-* **Portfolio Website**: [https://billy-enrizky.github.io/portfolio/](https://billy-enrizky.github.io/portfolio/)
-* **LinkedIn**: [Muhammad Enrizky Brillian](https://linkedin.com/in/muhammad-enrizky-brillian)
-* **GitHub**: [billy-enrizky](https://github.com/billy-enrizky)
-* **Email**: [billy.suharno@mail.utoronto.ca](mailto:billy.suharno@mail.utoronto.ca)
-* **Phone**: +14167317583
+## What I Work On
 
-## Professional Experience
+- Multi-agent systems, RAG, browser automation, and LLM application engineering
+- Applied machine learning for healthcare, enterprise workflows, and multimodal data
+- Full-stack AI products with React, TypeScript, React Native, Expo, Node.js, and AWS
 
-### Machine Learning Developer @ IBM *(May 2025 - Present)*
+## Selected Work
 
-* Architected end-to-end, multi-agent Text-to-SQL solution within AWS, combining Bedrock (LLM), RDS (database), Redis (Cache), achieving 93% accuracy for over $300K contract
-* Developed multimodal agentic RAG solution by unifying image and text databases, agentic PDF parsing, and reranking, delivering 97% answer relevancy, invoked $100K Contract
+- [OpenBrowser AI](https://github.com/billy-enrizky/openbrowser-ai): Agentic browser framework with CLI tooling, MCP server support, AWS deployment, and reinforcement learning pipelines.
+- [Job Seeker AI Agent](https://github.com/billy-enrizky/Job-seeker-ai-agent): Multi-agent system that analyzes job postings and tailors resumes for stronger ATS alignment.
+- [Chat With Documents and Web](https://github.com/billy-enrizky/chat-with-documents): RAG application using LangChain, Chroma, and Hugging Face embeddings across documents and web sources.
+- [Chat With Image](https://github.com/billy-enrizky/chat-with-image): Multimodal assistant built with IBM watsonx and Llama 3.2 Vision for image-aware conversations.
 
-### Research Student @ University Health Network (UHN), Toronto General Hospital *(Sep 2024 - Present)*
+## Experience
 
-* Enhanced model accuracy from 56% to 83% through ML model selection and hyperparameter tuning
-* Achieved 91% accuracy on multimodal model, combining text and image features using early fusion
-* Performed data preprocessing for 122GB of pathology medical images on Linux-based supercomputers
-
-### Data Scientist @ Sanofi *(Jan 2024 - Aug 2025)*
-
-* Built ETL pipeline using Python and SQL, integrating billions of rows from the largest vaccine production plant in Canada ($800M worth)
-* Engineered two-click, self-service workflow on Snowflake and Streamlit, reducing manual cycles from days to seconds
-* Led cross-functional team, enhancing productivity by 40% through agile methodologies
-
-### Full Stack Developer Intern @ Maatrx Inc *(May 2025 - Aug 2025)*
-
-* Developed full-stack platform using NodeJS, ExpressJS, NextJS, React, TypeScript targeting $12.5M annual savings
-* Built paper-screening agent integrating various LLMs achieving 92% accuracy
-
-### Research Student @ Acceleration Consortium *(May 2025 - Aug 2025)*
-
-* Implemented scalable ML pipeline using OpenCV, Pandas, MediaPipe to process 60 high-resolution videos (7 GB each)
-* Engineered multimodal AI data extraction pipeline leveraging GPT-4 Vision achieving 99.98% accuracy
-
-### Teaching Assistant @ University of Toronto *(Sep 2023 - Present)*
-
-* Subjects: Data Science, Calculus, and Statistics (495+ hours of experience)
-* Conducted tutorial sessions for 30+ students, graded assessments for 650+ students
-
-## Technical Skills
-
-### Machine Learning & AI
-
-* **Frameworks**: PyTorch, TensorFlow, Keras, Scikit-Learn, Hugging Face
-* **Specialties**: Deep Learning (94%), Computer Vision (97%), NLP, RAG Systems
-* **AI Agents**: CrewAI, LangChain, Multi-agent Systems
-
-### Data Science & Engineering
-
-* **Languages**: Python, R, SQL, JavaScript, TypeScript
-* **Libraries**: NumPy, Pandas, OpenCV, MediaPipe, tidyverse
-* **ETL & Processing**: PySpark, Snowflake, data preprocessing (96%)
-* **Visualization**: Tableau, Matplotlib, Seaborn (93%)
-
-### Cloud & Infrastructure
-
-* **Platforms**: AWS (Bedrock, RDS), GCP, Linux-based supercomputers
-* **Databases**: Redis, SQLite, SQL databases
-* **Web Development**: React, NextJS, NodeJS, ExpressJS, Flask, Streamlit
-
-## Featured Projects
-
-### [Multi AI Agent – Job Seeker](https://github.com/billy-enrizky/Job-seeker-ai-agent)
-
-Developed multi-agent AI system leveraging CrewAI to analyze job postings and tailor resumes dynamically, integrating SerperDev and MDXSearch for personalized resume creation.
-
-### [RAG LLM - Chat With Documents and Web](https://github.com/billy-enrizky/chat-with-documents)
-
-Engineered advanced RAG solution using LangChain with Chroma Vector Database and HuggingFace Embeddings, integrating multiple LLM providers (OpenAI, Anthropic, Groq).
-
-### [Multimodal LLM - Chat With Image](https://github.com/billy-enrizky/chat-with-image)
-
-Built multimodal LLM using IBM WatsonX API and Streamlit, integrating llama 3.2 90b vision instruct model for context-aware responses to visual and textual inputs.
-
-### [AI Agent - Research Assistant](https://github.com/billy-enrizky/crewai-research-assistant)
-
-Pioneered AI Agent Assistant leveraging CrewAI Framework and Exa API, integrating OpenAI, Groq, and Ollama models for robust research insights.
-
-### [Deep Reinforcement Learning – Space Invaders](https://github.com/billy-enrizky/DeepRL-SpaceInvaders)
-
-Implemented Deep Q-Network (DQN) using TensorFlow with dueling network architecture and epsilon-greedy policy for Atari games.
-
-### [DCGAN Face Generator](https://github.com/billy-enrizky/DCGAN-Face-Generator)
-
-Implemented DCGAN with PyTorch to generate realistic faces, training on 21,551 face images with 2.7M discriminator and 3.8M generator parameters.
-
-### [Deep Learning: Human Video Activity Recognition](https://github.com/billy-enrizky/Activity-Recognition-Project/)
-
-Developed hybrid CNN-LSTM architecture achieving 91% accuracy, implementing LRCN architecture for spatial and temporal feature integration.
-
-### [Deep Learning: Image Caption Generator](https://github.com/billy-enrizky/Image-Caption-Generator)
-
-Implemented bidirectional LSTM with attention mechanisms achieving BLEU score of 0.54, utilizing VGG16 for image feature extraction.
-
-### [Deep Learning: Speech Emotion Recognition](https://github.com/billy-enrizky/Speech-Emotion-Recognition)
-
-Trained LSTM neural network with 77,160 parameters achieving 98.61% accuracy, engineered MFCC preprocessing pipeline with Streamlit interface.
-
+- **Machine Learning Developer**, IBM
+- **Machine Learning Research Student**, Toronto General Hospital / University Health Network
+- **Data Scientist**, Sanofi
+- **Full Stack Developer Intern**, Leslie Dan Faculty of Pharmacy, University of Toronto
 
 ## Education
 
-**Bachelor in Data Science and Machine Learning Specialist**
-*University of Toronto* (2022 - 2025)
+**University of Toronto**  
+Honors Bachelor of Science with Co-op  
+Data Science and Machine Learning Specialist, Computer Science Major, Economics Minor
 
-* **Funding**: Advanced Indonesian Scholarship (BIM) from Indonesia Ministry of Education (~$380,000)
-* **Activities**: Teaching Assistant, Finance & Data Lab Assistant, Academic Representative
+**cGPA:** 3.91/4.00  
+**Awards:** Advanced Indonesian Scholarship recipient (approximately $380K), Dean's List in 2023, 2024, and 2025
 
-## Services & Expertise
+## Connect
 
-* **Data Analysis**: Unlock insights and drive decisions with comprehensive data analysis
-* **Data Engineering**: Build robust ETL pipelines and data infrastructure
-* **Data Visualization**: Transform data into compelling stories with interactive dashboards
-* **Machine Learning**: Develop predictive models and AI solutions
-* **Business Analysis**: Optimize operations through data-driven insights
-* **Teaching & Mentoring**: Academic support in Data Science, Statistics, and Calculus
+- Portfolio: [billy-enrizky.github.io/portfolio](https://billy-enrizky.github.io/portfolio/)
+- LinkedIn: [linkedin.com/in/enrizky-brillian](https://www.linkedin.com/in/enrizky-brillian/)
+- GitHub: [github.com/billy-enrizky](https://github.com/billy-enrizky)
+- Email: [billy.suharno@mail.utoronto.ca](mailto:billy.suharno@mail.utoronto.ca)
+
+If you are building agentic AI, applied machine learning systems, or production AI products, feel free to connect.
