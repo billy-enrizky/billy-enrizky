@@ -34,6 +34,8 @@ I work at IBM on multi-agent systems, RAG, browser automation, and cross-cloud A
 - Developed a **multimodal agentic RAG** system with **97% answer relevancy** and cross-modal retrieval across text and image data.
 - Built a **cross-cloud agent interoperability** platform connecting **Azure Foundry**, **AWS Bedrock AgentCore**, and **LangGraph**, reducing API calls by **73%**.
 - Researched and engineered **OpenBrowser**, an agentic browser framework for SAP automation that benchmarked at **3x cheaper** and **20% faster** through a DOM-first CDP approach.
+- Engineered a transaction-level P&L rebuild pipeline in Python reconciling EBITDA across **15 entities** (SAP, ECC, QuickBooks) with **67 rules**; delivered BigQuery warehouse, LookML semantic layer, and Next.js AI copilot with Vertex AI Gemini.
+- Deployed **Gemma 4 31B** on SageMaker (4x A10G) with **5-knowledge-base RAG** on Bedrock, achieving **6x speedup** (12 to 2 min) via ThreadPoolExecutor with WAF geo-lock to Canada.
 - Built data workflows at **Sanofi** that processed **billions of rows** and reduced manual reporting cycles from **days to seconds**.
 
 ## What I Work On
@@ -62,11 +64,13 @@ I work at IBM on multi-agent systems, RAG, browser automation, and cross-cloud A
 
 ## Education
 
-**University of Toronto**  
-Honors Bachelor of Science with Co-op  
-Data Science and Machine Learning Specialist, Computer Science Major, Economics Minor
+**Georgia Institute of Technology**  
+Master of Science in Computer Science, Specialization in Artificial Intelligence
 
-**Awards:** Full-ride Advanced Indonesian Scholarship recipient (approximately $380K), Dean's List in 2023, 2024, and 2025
+**University of Toronto**  
+Honours Bachelor of Science with Co-op, with High Distinction  
+Data Science and Machine Learning Specialist (Co-op), Computer Science Major, Economics Minor  
+Accepted to 3 graduate programs: Fully Funded MSc/PhD at Institute of Medical Sciences (UofT), MSc Applied Computing AI Specialization at Department of Computer Science (UofT), and Master of Data Science and AI at University of Waterloo.
 
 ## Connect
 
