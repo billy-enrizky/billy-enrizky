@@ -1,6 +1,6 @@
 # Muhammad Enrizky Brillian
 
-Machine Learning Developer building agentic AI systems, multimodal ML products, and production-grade data workflows.
+Machine Learning / AI Engineer, Consultant building agentic AI systems, multimodal ML products, and production-grade data workflows.
 
 I work at IBM on multi-agent systems, RAG, browser automation, and cross-cloud AI infrastructure. I also conduct medical AI research with Toronto General Hospital at UHN, where I build multimodal and deep learning systems for clinical prediction.
 
@@ -53,7 +53,7 @@ I work at IBM on multi-agent systems, RAG, browser automation, and cross-cloud A
 
 ## Experience
 
-- **Machine Learning Developer, IBM**
+- **Machine Learning / AI Engineer, Consultant, IBM**
   Built multi-agent AI systems across AWS, multimodal RAG, cross-cloud interoperability, and agentic browser automation for enterprise use cases.
 - **Machine Learning Research Student, Toronto General Hospital / UHN**
   Developed multimodal and deep learning systems for clinical prediction, including pathology-slide pipelines and survival prediction models across multi-center datasets.
