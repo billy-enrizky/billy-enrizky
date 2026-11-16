@@ -1,0 +1,11 @@
+GSAP 3.14.2 (gsap.min.js in this folder)
+
+License: GreenSock "Standard 'no charge' license", https://gsap.com/standard-license
+Copyright 2025, GreenSock. All rights reserved. Author: Jack Doyle.
+
+Sources:
+- npm package gsap@3.14.2, package.json field "license": "Standard 'no charge' license: https://gsap.com/standard-license."
+- npm package gsap@3.14.2, README.md section "License".
+- The minified file header: "@license Copyright 2025, GreenSock. All rights reserved. Subject to the terms at https://gsap.com/standard-license."
+
+The vendored file's SHA-256 is c174bfce53a72941... (first 16 hex digits), matching the npm package's dist/gsap.min.js.

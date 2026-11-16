@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=960, height=432" />
+    <title>Applied AI, in practice</title>
+    <style>
+      @font-face {
+        font-family: Geist;
+        src: url("assets/fonts/geist-latin-variable.woff2") format("woff2");
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: block;
+      }
+
+      :root {
+        --paper: #101010;
+        --plate: #191919;
+        --ink: #f1f1f1;
+        --muted: #b4b4b4;
+        --accent: #f08a67;
+        --rule: #373737;
+      }
+
+      * { box-sizing: border-box; }
+
+      html,
+      body {
+        width: 960px;
+        height: 432px;
+        margin: 0;
+        overflow: hidden;
+        background: var(--paper);
+      }
+
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: Geist, Arial, sans-serif;
+      }
+
+      .intro {
+        position: absolute;
+        left: 56px;
+        top: 52px;
+        width: 520px;
+      }
+
+      .name {
+        margin: 0;
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: -0.035em;
+        line-height: 0.98;
+      }
+
+      .name span {
+        display: block;
+      }
+
+      .role {
+        margin: 14px 0 0;
+        color: var(--muted);
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .rows {
+        margin: 28px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 30px 170px 1fr;
+        align-items: center;
+        column-gap: 14px;
+        min-height: 60px;
+        padding: 12px 0;
+        border-top: 1px solid var(--rule);
+      }
+
+      .row:last-child {
+        border-bottom: 1px solid var(--rule);
+      }
+
+      .row-icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+      }
+
+      .row-label {
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+      }
+
+      .row-detail {
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.35;
+      }
+
+      .stage {
+        position: absolute;
+        left: 624px;
+        top: 60px;
+        width: 288px;
+        perspective: 700px;
+      }
+
+      .plate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 26px 22px 22px;
+        background: var(--plate);
+        border: 1px solid var(--rule);
+        border-radius: 28px;
+        box-shadow: 0 18px 28px -20px rgba(0, 0, 0, 0.35);
+      }
+
+      .mark {
+        display: block;
+        width: 220px;
+        height: auto;
+        transform-origin: 50% 50%;
+      }
+
+      .caption {
+        margin-top: 18px;
+        text-align: center;
+      }
+
+      .caption strong {
+        display: block;
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .caption code {
+        display: block;
+        margin-top: 6px;
+        color: var(--muted);
+        font-family: ui-monospace, Menlo, Consolas, monospace;
+        font-size: 12px;
+      }
+    </style>
+    <script src="assets/vendor/gsap.min.js"></script>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="profile-banner"
+      data-width="960"
+      data-height="432"
+      data-duration="9.6"
+    >
+      <div id="intro" class="intro clip" data-start="0" data-duration="9.6">
+        <h1 class="name"><span>Muhammad Enrizky</span><span>Brillian</span></h1>
+        <p class="role">Software Engineer, AI and Automation Practice, IBM</p>
+        <ul class="rows">
+          <li class="row">
+            <svg class="row-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><circle cx="32" cy="32" r="29" fill="var(--plate)" stroke="var(--rule)" stroke-width="2"/>
+  <rect x="19" y="19" width="26" height="26" rx="5" fill="none" stroke="var(--ink)" stroke-width="2.5"/>
+  <path d="M25 13v6m7-6v6m7-6v6m-14 26v6m7-6v6m7-6v6m13-26h-6m6 7h-6m6 7h-6M19 25h-6m6 7h-6m6 7h-6" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M25 35v-5m7 8V26m7 12v-8" stroke="var(--accent)" stroke-width="3" stroke-linecap="round"/></svg>
+            <span class="row-label">Model inference</span>
+            <span class="row-detail">Gemma 4 31B on SageMaker with vLLM, FP8 and MTP</span>
+          </li>
+          <li class="row">
+            <svg class="row-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><circle cx="32" cy="32" r="29" fill="var(--plate)" stroke="var(--rule)" stroke-width="2"/>
+  <rect x="14" y="17" width="36" height="29" rx="5" fill="none" stroke="var(--ink)" stroke-width="2.5"/>
+  <path d="M14 25h36" stroke="var(--ink)" stroke-width="2.5"/>
+  <circle cx="20" cy="21" r="1.4" fill="var(--accent)"/><circle cx="25" cy="21" r="1.4" fill="var(--ink)"/><circle cx="30" cy="21" r="1.4" fill="var(--ink)"/>
+  <path d="m28 31 10 9-5 .4-2.2 4.2-2.2-1.2 2-4.2-2.6-8.2Z" fill="var(--accent)" stroke="var(--ink)" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            <span class="row-label">Browser tools</span>
+            <span class="row-detail">OpenBrowser over raw CDP and MCP, with a persistent daemon</span>
+          </li>
+          <li class="row">
+            <svg class="row-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><circle cx="32" cy="32" r="29" fill="var(--plate)" stroke="var(--rule)" stroke-width="2"/>
+  <path d="M18 17h20l9 9v21H18z" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M38 17v10h9m-23 14 6-6 5 3 7-8" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="41" r="1.7" fill="var(--accent)"/><circle cx="30" cy="35" r="1.7" fill="var(--accent)"/><circle cx="35" cy="38" r="1.7" fill="var(--accent)"/><circle cx="42" cy="30" r="1.7" fill="var(--accent)"/></svg>
+            <span class="row-label">Applied research</span>
+            <span class="row-detail">QLoRA and GRPO for browser agents, evaluated on 1,240 tasks</span>
+          </li>
+        </ul>
+      </div>
+
+      <div id="stage" class="stage clip" data-start="0" data-duration="9.6">
+        <div class="plate">
+          <img class="mark" src="assets/openbrowser-mark.png" alt="" />
+          <div class="caption">
+            <strong>OpenBrowser</strong>
+            <code>pip install openbrowser-ai</code>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo(".name", { y: 8 }, { y: 0, duration: 0.7, ease: "power2.out" }, 0);
+      tl.fromTo(".role", { y: 6 }, { y: 0, duration: 0.7, ease: "power2.out" }, 0.2);
+      tl.fromTo(".row", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out", stagger: 0.25 }, 0.9);
+      tl.fromTo(".mark", { rotationY: -24 }, { rotationY: 24, duration: 3.2, ease: "sine.inOut" }, 0.6);
+      tl.to(".mark", { rotationY: -24, duration: 3.2, ease: "sine.inOut" }, 3.8);
+      tl.to(".row", { opacity: 0, y: -6, duration: 0.5, ease: "power2.in", stagger: 0.15 }, 8.2);
+      window.__timelines["profile-banner"] = tl;
+    </script>
+  </body>
+</html>
