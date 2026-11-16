@@ -1,61 +1,122 @@
-# Muhammad Enrizky Brillian
-
-**AI / Machine Learning Engineer, Consultant at IBM Consulting** · Toronto, Canada
-
-I build practical AI systems, from multi-agent applications and model serving to developer tools and data workflows. At IBM Consulting's AI and Automation Practice, I work with teams to define problems, evaluate solutions, and move useful systems toward pre-production.
-
-[Portfolio](https://billy-enrizky.github.io/portfolio/) · [Current CV](https://billy-enrizky.github.io/portfolio/assets/Muhammad-Enrizky-Brillian-Software-Engineer-CV.pdf) · [LinkedIn](https://www.linkedin.com/in/enrizky-brillian/) · [Email](mailto:billy.suharno@gmail.com)
-
 <picture>
-  <source srcset="./assets/profile/profile-focus.png" media="(prefers-reduced-motion: reduce)">
-  <img src="./assets/profile/profile-focus.gif" alt="An animated banner with separate visuals for model inference, browser tools, and applied research." width="960">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/profile-dark/profile-focus-dark.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile/profile-focus.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark/profile-focus-dark.gif" />
+  <img src="./assets/profile/profile-focus.gif" alt="Muhammad Enrizky Brillian, Software Engineer, AI and Automation Practice, IBM. Three areas: model inference with vLLM, FP8 and MTP; browser tools with OpenBrowser over raw CDP and MCP; applied research with QLoRA and GRPO." width="960" />
 </picture>
 
-<sub><a href="./assets/profile/profile-focus.png">View the static image</a></sub>
+# Muhammad Enrizky Brillian
+
+**Software Engineer, AI and Automation Practice, IBM** · Toronto, ON
+
+I build AI infrastructure and the tools around it: self-hosted model serving, browser agents, and data platforms that reach production.
+
+[Portfolio](https://billy-enrizky.github.io/portfolio/) · [CV (PDF)](https://billy-enrizky.github.io/portfolio/assets/Muhammad-Enrizky-Brillian-Software-Engineer-CV.pdf) · [LinkedIn](https://www.linkedin.com/in/enrizky-brillian/) · [Email](mailto:billy.suharno@gmail.com)
+
+## How the work connects
+
+```mermaid
+flowchart LR
+    A[Model serving<br/>vLLM, FP8, MTP] --> C[Applied AI systems]
+    B[Browser agents<br/>CDP, MCP, Manifest V3] --> C
+    C --> D[Evaluation<br/>QLoRA, GRPO, 1,240 tasks]
+    D --> A
+```
 
 ## Technical focus
 
-- **Languages**: Python, SQL, TypeScript, JavaScript, and Rust.
-- **AI applications**: PyTorch, RAG, multi-agent systems, text-to-SQL, model evaluation, and structured outputs.
-- <img src="./assets/profile/assets/icons/inference.svg" width="24" height="24" alt="" /> **Inference**: vLLM, SageMaker, Bedrock, FP8 weight compression, tensor parallelism, and multi-token prediction (MTP) speculative decoding.
-- <img src="./assets/profile/assets/icons/browser-agents.svg" width="24" height="24" alt="" /> **Agents and browser tools**: MCP, tool calling, Chrome CDP, and browser automation.
-- **Application engineering**: FastAPI, Flask, React, Next.js, Node.js, testing, and observability.
-- **Data platforms**: BigQuery, Snowflake, ETL, Pandas, and data modeling.
-- **Cloud and infrastructure**: AWS, Azure, GCP, Docker, and Terraform.
+- <img src="./assets/profile/assets/icons/inference.svg" width="22" height="22" alt="" /> **Model serving**: vLLM, SageMaker, FP8 weight compression, tensor parallelism, speculative decoding (MTP), and KV cache tuning.
+- <img src="./assets/profile/assets/icons/browser-agents.svg" width="22" height="22" alt="" /> **Browser agents**: raw Chrome DevTools Protocol, MCP servers, and Chrome Manifest V3 extensions.
+- <img src="./assets/profile/assets/icons/research.svg" width="22" height="22" alt="" /> **Applied AI**: QLoRA and GRPO fine-tuning, a six-agent text-to-SQL platform, and evaluation of structured outputs.
+- **Data platforms**: BigQuery, Snowflake, ETL, Pandas, Terraform, and CI/CD.
+- **Languages**: Python, SQL, TypeScript, JavaScript, R, and Rust.
 
 ## Experience
 
-### AI / Machine Learning Engineer, Consultant, IBM Consulting
+### Software Engineer, AI and Automation Practice
 
-**May 2025 to present · AI and Automation Practice**
+**IBM, Toronto · May 2025 to present**
 
-- Delivered a six-agent text-to-SQL system across five production databases in eight weeks. It reached 93% accuracy in the reported evaluation and enabled non-SQL staff to query operational data.
-- Deployed self-hosted Gemma 4 31B on SageMaker with vLLM, FP8 weight compression, tensor parallelism, and MTP speculative decoding. The deployment kept regulated data within the VPC and removed the managed-model dependency.
-- Benchmarked vLLM on eight A100 GPUs to measure throughput, error rates, and serving cost at different request volumes, informing production capacity planning.
-- Built streaming APIs and parallel document-generation services. A controlled comparison reduced one full-draft run from 7m48s to 4m52s, and a separate six-week proof of concept demonstrated more than 50% drafting-time savings.
-- Built an authenticated Azure and AWS agent platform with five agents, 16 RBAC roles, 124 unit tests, and tracing to support secure operation and troubleshooting.
+- Deployed Gemma 4 31B as a self-hosted SageMaker endpoint with vLLM 0.32.0, FP8 weight compression and tensor parallelism. The deployment kept regulated data in the VPC and removed the managed-model dependency.
+- Benchmarked a 31B vLLM deployment on eight A100 GPUs. Throughput reached 10,410.60 tokens per second at N=512 with zero errors at N=1024, and cost fell from $132.56 to $0.77 per million tokens, a 172x reduction.
+- Ran 144/144 successful A/B runs of multi-token prediction across A10, A100-80GB, H100 and B200 GPUs. A10 was the only GPU with a durable MTP win, at 1.38x to 2.06x.
+- Delivered a six-agent text-to-SQL platform with 93% accuracy across five production databases in eight weeks, enabling non-SQL staff to query operations data.
+- Built a five-agent cross-cloud A2A platform with Entra ID JWT propagation, AWS Lambda SigV4, Bicep and Arize Phoenix. It has 124 unit tests and 16 RBAC roles, and it cut API calls 73%.
+- Optimized H200 kernels for Muse Spark: 1.53x dense projection, 1.96x MoE W4A16, 1.90x attention decode and 1.77x decoder.
 
-### Previous experience
+### Machine Learning Research Student (T-CAIREM Research Award)
 
-- **Data Scientist, Sanofi** (January 2024 to August 2025): Built manufacturing data workflows and a two-click Snowflake and Streamlit reporting tool. It reduced reporting cycles from days to seconds and supported a 40% team productivity improvement.
-- **Machine Learning Research Student, clinical AI** (September 2024 to May 2026): Worked on multimodal prediction and survival-analysis pipelines.
-- **Full-Stack Developer Intern, Leslie Dan Faculty of Pharmacy, University of Toronto** (May to August 2025): Built an LLM-assisted paper-screening agent and a web application.
-- **Teaching Assistant, University of Toronto** (September 2023 to April 2026): Delivered 1,029 teaching hours, led tutorials for 30+ students, reviewed seminars for 400+ students, and graded assessments for 650+ students.
+**Toronto General Hospital, UHN · Sep 2024 to May 2026**
+
+Supervised by Dr. Mamatha Bhat and Dr. Joseph S. Kim. Built a liver-failure survival model that reached 88.7% accuracy on research data from 1,260 patients across 32 US centers, and multimodal transplant research with early fusion of clinical text and histopathology features.
+
+### Research Student, DSI Research Award
+
+**University Health Network (UHN), KITE Research Institute · May 2024 to August 2024**
+
+Human activity recognition with limited input data, supervised by Dr. Jose Zariffa. Research models recognized human actions with over 68% accuracy across different test settings.
+
+### Data Scientist
+
+**Sanofi, Toronto · January 2024 to August 2025**
+
+Built a two-click Snowflake and Streamlit workflow that moved manual reporting from days to seconds, and led a cross-functional team that introduced sprint planning and CI/CD automation, supporting a 40% team productivity gain.
+
+### Full Stack Developer Intern
+
+**Leslie Dan Faculty of Pharmacy (LDFP), University of Toronto · May 2025 to August 2025**
+
+Supervised by Professor Mina Tadrous. Built a paper-screening agent with OpenRouter, Gemini and OpenAI models, and a pharmacist-patient platform with NodeJS, ExpressJS, NextJS, React and TypeScript.
+
+### Research Student
+
+**Acceleration Consortium · May 2025 to August 2025**
+
+Research tools extracted structured data from more than 10,000 document pages with 99.98% accuracy, producing more than 10,000 data rows with 22 fields each.
+
+### Finance and Data Lab Assistant
+
+**University of Toronto · May 2023 to December 2023**
+
+A financial dashboard made three years of performance easier to review and compare across time.
+
+### Teaching Assistant (Calculus, Data Science, Probability)
+
+**University of Toronto · September 2023 to April 2026**
+
+Taught calculus, data science and probability for 1,029+ hours, led tutorials for 30+ students, ran review seminars for 400+ students, and graded assessments for 650+ students.
+
+### Research Assistant
+
+**University of Toronto**
+
+A university vision study reached 83% overall accuracy when evaluating object recognition and grasping together. A separate health project studied gendered health through tracking and body sensors.
+
+### Big Data Analyst
+
+**Kimia Farma · September 2022 to December 2022**
+
+Built a branch sales database of 140,000+ entries and a Tableau sales dashboard, reducing data-processing time by 33%. The dashboard saved $95,000 in the annual budget.
+
+### Data Analyst
+
+**Mulia Health Dental Care Group · March 2022 to July 2022**
+
+Customer-data analysis across 14 branches increased operational efficiency by 15%, using data from more than 10,000 customers. Recommendations informed initiatives that supported a 25% increase in company profitability.
 
 ## Selected projects
 
-- <img src="./assets/profile/assets/openbrowser-mark.png" width="30" height="22" alt="" /> **[OpenBrowser](https://github.com/billy-enrizky/openbrowser-ai)**: An open-source Python browser-agent framework using raw Chrome CDP. It includes a CLI, a single-tool MCP server, persistent execution, and model-provider adapters. [Read the CLI and MCP comparison](https://docs.openbrowser.me/comparison).
-- <img src="./assets/profile/assets/icons/context-atlas.svg" width="24" height="24" alt="" /> **[Context Atlas, Jev + Laya](https://chromewebstore.google.com/detail/context-atlas-find-what-m/plehanpnecnjdbkcmbhgphhglkkkgfhd?authuser=1&hl=en&pli=1)**: A Chrome extension for local page search, on-device inference, and answers linked to their source passages, with optional cloud ranking. [Read the article](https://openbrowser-landing.pages.dev/context-atlas-blog).
-- **Inference kernel optimization**: Benchmarked H200 kernels for dense projection, MoE, attention decoding, and decoder workloads, measuring per-kernel speedups of 1.53x, 1.96x, 1.90x, and 1.77x, respectively.
+- **[OpenBrowser](https://github.com/billy-enrizky/openbrowser-ai)**: a Python framework that drives Chrome over raw CDP and runs LLM-written Python in a persistent namespace. It ships a CLI, a single-tool MCP server, a persistent daemon, a FastAPI and Next.js web app, and 14 LLM provider adapters. [CLI and MCP comparison](https://docs.openbrowser.me/comparison)
+- **[Context Atlas](https://chromewebstore.google.com/detail/context-atlas-find-what-m/plehanpnecnjdbkcmbhgphhglkkkgfhd)** (Jev + Laya): a Manifest V3 Chrome extension that finds the sentence that answers a question on the current page and highlights it, with local search by default. [Read the article](https://openbrowser-landing.pages.dev/context-atlas-blog/)
 
-## Research and benchmarks
+## Research
 
-- <img src="./assets/profile/assets/icons/research.svg" width="24" height="24" alt="" /> **[Multi-Token Prediction benchmark](https://openbrowser.me/mtp)**: Completed 144 of 144 A/B runs across four GPU types and three prompt regimes. The benchmark separates MTP gains from inference-engine differences to show when speculative decoding helps.
-- **[Browser-in-the-Loop: Reinforcement Fine-Tuning LLM Agents for Web Form Filling](https://www.researchgate.net/publication/403258687_Browser-in-the-Loop_Reinforcement_Fine-Tuning_LLM_Agents_for_Web_Form_Filling)**: STAD68 final course paper, 2026. QLoRA and online GRPO raised validation reward from 0.614 to 0.670 on live Chromium form tasks.
-- **[Concentrate or Collapse: When Reinforcement Learning Meets Diffusion Language Models for Web Planning](https://www.researchgate.net/publication/403258870_Concentrate_or_Collapse_When_Reinforcement_Learning_Meets_Diffusion_Language_Models_for_Web_Planning)**: STAD80 course paper, 2026. Compared Qwen3-8B, ReFusion-8B, and FS-DFM-1.3B on 1,240 browser tasks, measuring exact task completion separately from parser validity.
+- **[Multi-Token Prediction benchmark](https://openbrowser.me/mtp)**: 144/144 runs succeeded for Gemma 4 E2B-it at batch size 1 across A10, A100-80GB, H100 and B200 GPUs. The study separates engine gains from speculative-decoding gains.
+- **Browser-in-the-Loop: Reinforcement Fine-Tuning LLM Agents for Web Form Filling** (STAD68 final paper, 2026): QLoRA and online GRPO raised the validation-task score from 0.614 to 0.670 (+9.1%) on 1,240 browser form tasks. These are benchmark results, not measured production savings.
+- **Concentrate or Collapse: When Reinforcement Learning Meets Diffusion Language Models for Web Planning** (STAD80 course paper, 2026): compared Qwen3-8B, ReFusion-8B and FS-DFM-1.3B on 1,240 FormFactory tasks. FS-DFM scored 0/124 greedy despite 76.6% to 87.9% stochastic parser validity, which shows that parse-valid plans can still fail in a browser.
 
 ## Education and awards
 
-- **Georgia Institute of Technology**: MS in Computer Science, Artificial Intelligence specialization (2026 to present).
-- **University of Toronto**: Honours Bachelor of Science with High Distinction, CGPA 3.87/4.00. Data Science and Machine Learning Specialist, Computer Science major, and Economics minor.
-- **Awards**: Dean's List (2023-2025), T-CAIREM Research Award, and Advanced Indonesian Scholarship.
+- **University of Toronto**: Honours Bachelor of Science with High Distinction, June 2026. Data Science and Machine Learning Specialist, Computer Science major, Economics minor. CGPA 3.87/4.00.
+- **Georgia Institute of Technology**: Master of Science in Computer Science, Artificial Intelligence Specialization, 2026 to present.
+- **Awards**: Dean's List (2023 to 2025), T-CAIREM Research Award, and Advanced Indonesian Scholarship.
