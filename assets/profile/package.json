@@ -1,0 +1,10 @@
+{
+  "name": "github-profile-visuals",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "npx --yes hyperframes@0.9.55 check .",
+    "snapshot": "npx --yes hyperframes@0.9.55 snapshot . --at 0,1.35,2.7,4.05,5.4,5.9",
+    "render": "npx --yes hyperframes@0.9.55 render . --format gif --fps 15 --gif-loop 0 --output profile-focus.gif"
+  }
+}
