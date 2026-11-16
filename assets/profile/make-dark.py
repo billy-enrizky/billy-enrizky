@@ -16,20 +16,20 @@ logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger("make-dark")
 
 LIGHT = {
-    "--paper": "#f4f1ec",
-    "--plate": "#fbf9f5",
-    "--ink": "#25272a",
-    "--muted": "#5c6066",
-    "--accent": "#a33a2b",
-    "--rule": "#cfc8be",
+    "--paper": "#f1f1f1",
+    "--plate": "#fafafa",
+    "--ink": "#101010",
+    "--muted": "#595959",
+    "--accent": "#b83a1f",
+    "--rule": "#d6d6d6",
 }
 DARK = {
-    "--paper": "#17191d",
-    "--plate": "#1e2126",
-    "--ink": "#f3f1ec",
-    "--muted": "#aeb2b6",
-    "--accent": "#e77a58",
-    "--rule": "#3a3d40",
+    "--paper": "#101010",
+    "--plate": "#191919",
+    "--ink": "#f1f1f1",
+    "--muted": "#b4b4b4",
+    "--accent": "#f08a67",
+    "--rule": "#373737",
 }
 
 HERE = pathlib.Path(__file__).resolve().parent
