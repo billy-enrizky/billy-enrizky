@@ -1,83 +1,54 @@
 # Muhammad Enrizky Brillian
 
-Machine Learning / AI Engineer, Consultant building agentic AI systems, multimodal ML products, and production-grade data workflows.
+**AI / Machine Learning Engineer, Consultant at IBM Consulting** · Toronto, Canada
 
-I work at IBM on multi-agent systems, RAG, browser automation, and cross-cloud AI infrastructure. I also conduct medical AI research with Toronto General Hospital at UHN, where I build multimodal and deep learning systems for clinical prediction.
+I build practical AI systems, from multi-agent applications and model serving to developer tools and data workflows. At IBM Consulting's AI and Automation Practice, I work with teams to define problems, evaluate solutions, and move useful systems toward pre-production.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/-React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Podman](https://img.shields.io/badge/-Podman-892CA0?style=flat-square&logo=podman&logoColor=white)
-![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/-LangGraph-0F172A?style=flat-square&logo=langgraph&logoColor=white)
-![vLLM](https://img.shields.io/badge/-vLLM-4B5563?style=flat-square&logo=vllm&logoColor=white)
-![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![llama.cpp](https://img.shields.io/badge/-llama.cpp-4F46E5?style=flat-square&logo=cplusplus&logoColor=white)
-![Unsloth](https://img.shields.io/badge/-Unsloth-111827?style=flat-square&logo=unsloth&logoColor=white)
+[Portfolio](https://billy-enrizky.github.io/portfolio/) · [Current CV](https://billy-enrizky.github.io/portfolio/assets/Muhammad-Enrizky-Brillian-Software-Engineer-CV.pdf) · [LinkedIn](https://www.linkedin.com/in/enrizky-brillian/) · [Email](mailto:billy.suharno@gmail.com)
 
-## Highlights
+## Technical focus
 
-- Built a multi-agent Text-to-SQL system on AWS that reached **93% accuracy** in **8 weeks** and supported a **$300K+ enterprise contract**.
-- Developed a **multimodal agentic RAG** system with **97% answer relevancy** and cross-modal retrieval across text and image data.
-- Built a **cross-cloud agent interoperability** platform connecting **Azure Foundry**, **AWS Bedrock AgentCore**, and **LangGraph**, reducing API calls by **73%**.
-- Researched and engineered **OpenBrowser**, an agentic browser framework for SAP automation that benchmarked at **3x cheaper** and **20% faster** through a DOM-first CDP approach.
-- Engineered a transaction-level P&L rebuild pipeline in Python reconciling EBITDA across **15 entities** (SAP, ECC, QuickBooks) with **67 rules**; delivered BigQuery warehouse, LookML semantic layer, and Next.js AI copilot with Vertex AI Gemini.
-- Deployed **Gemma 4 31B** on SageMaker (4x A10G) with **5-knowledge-base RAG** on Bedrock, achieving **6x speedup** (12 to 2 min) via ThreadPoolExecutor with WAF geo-lock to Canada.
-- Built data workflows at **Sanofi** that processed **billions of rows** and reduced manual reporting cycles from **days to seconds**.
-
-## What I Work On
-
-- Multi-agent systems, RAG, browser automation, and LLM application engineering
-- Applied machine learning for healthcare, enterprise workflows, and multimodal data
-- Full-stack AI products with React, TypeScript, React Native, Expo, Node.js, and AWS
-
-## Selected Work
-
-- [OpenBrowser AI](https://github.com/billy-enrizky/openbrowser-ai): Agentic browser framework with CLI tooling, MCP server support, AWS deployment, and reinforcement learning pipelines.
-- [Job Seeker AI Agent](https://github.com/billy-enrizky/Job-seeker-ai-agent): Multi-agent system that analyzes job postings and tailors resumes for stronger ATS alignment.
-- [Chat With Documents and Web](https://github.com/billy-enrizky/chat-with-documents): RAG application using LangChain, Chroma, and Hugging Face embeddings across documents and web sources.
-- [Chat With Image](https://github.com/billy-enrizky/chat-with-image): Multimodal assistant built with IBM watsonx and Llama 3.2 Vision for image-aware conversations.
+- **Languages**: Python, SQL, TypeScript, JavaScript, and Rust.
+- **AI applications**: PyTorch, RAG, multi-agent systems, text-to-SQL, model evaluation, and structured outputs.
+- **Inference**: vLLM, SageMaker, Bedrock, FP8 weight compression, tensor parallelism, and multi-token prediction (MTP) speculative decoding.
+- **Agents and browser tools**: MCP, tool calling, Chrome CDP, and browser automation.
+- **Application engineering**: FastAPI, Flask, React, Next.js, Node.js, testing, and observability.
+- **Data platforms**: BigQuery, Snowflake, ETL, Pandas, and data modeling.
+- **Cloud and infrastructure**: AWS, Azure, GCP, Docker, and Terraform.
 
 ## Experience
 
-- **Machine Learning / AI Engineer, Consultant, IBM**
-  Built multi-agent AI systems across AWS, multimodal RAG, cross-cloud interoperability, and agentic browser automation for enterprise use cases.
-- **Machine Learning Research Student, Toronto General Hospital / UHN**
-  Developed multimodal and deep learning systems for clinical prediction, including pathology-slide pipelines and survival prediction models across multi-center datasets.
-- **Data Scientist, Sanofi**
-  Built ETL and self-service analytics workflows on Python, SQL, Snowflake, and Streamlit, processing billions of rows for vaccine manufacturing operations.
-- **Full Stack Developer Intern, Leslie Dan Faculty of Pharmacy, University of Toronto**
-  Built an LLM-powered paper-screening agent and a full-stack platform with Node.js, React, Next.js, and TypeScript.
+### AI / Machine Learning Engineer, Consultant, IBM Consulting
 
-## Education
+**May 2025 to present · AI and Automation Practice**
 
-**Georgia Institute of Technology**  
-Master of Science in Computer Science, Specialization in Artificial Intelligence
+- Delivered a six-agent text-to-SQL system across five production databases in eight weeks. It reached 93% accuracy in the reported evaluation and enabled non-SQL staff to query operational data.
+- Deployed self-hosted Gemma 4 31B on SageMaker with vLLM, FP8 weight compression, tensor parallelism, and MTP speculative decoding. The deployment kept regulated data within the VPC and removed the managed-model dependency.
+- Benchmarked vLLM on eight A100 GPUs to measure throughput, error rates, and serving cost at different request volumes, informing production capacity planning.
+- Built streaming APIs and parallel document-generation services. A controlled comparison reduced one full-draft run from 7m48s to 4m52s, and a separate six-week proof of concept demonstrated more than 50% drafting-time savings.
+- Built an authenticated Azure and AWS agent platform with five agents, 16 RBAC roles, 124 unit tests, and tracing to support secure operation and troubleshooting.
 
-**University of Toronto**  
-Honours Bachelor of Science with Co-op, with High Distinction  
-Data Science and Machine Learning Specialist (Co-op), Computer Science Major, Economics Minor  
-Accepted to 3 graduate programs: Fully Funded MSc/PhD at Institute of Medical Sciences (UofT), MSc Applied Computing AI Specialization at Department of Computer Science (UofT), and Master of Data Science and AI at University of Waterloo.
+### Previous experience
 
-## Connect
+- **Data Scientist, Sanofi** (January 2024 to August 2025): Built manufacturing data workflows and a two-click Snowflake and Streamlit reporting tool. It reduced reporting cycles from days to seconds and supported a 40% team productivity improvement.
+- **Machine Learning Research Student, clinical AI** (September 2024 to May 2026): Worked on multimodal prediction and survival-analysis pipelines.
+- **Full-Stack Developer Intern, Leslie Dan Faculty of Pharmacy, University of Toronto** (May to August 2025): Built an LLM-assisted paper-screening agent and a web application.
+- **Teaching Assistant, University of Toronto** (September 2023 to April 2026): Delivered 1,029 teaching hours, led tutorials for 30+ students, reviewed seminars for 400+ students, and graded assessments for 650+ students.
 
-- Portfolio: [billy-enrizky.github.io/portfolio](https://billy-enrizky.github.io/portfolio/)
-- CV: [View Resume](https://drive.google.com/file/d/1pZ4wwgsJQ1twUtO7Kq654LSxjkMvuhKg/view?usp=sharing)
-- LinkedIn: [linkedin.com/in/enrizky-brillian](https://www.linkedin.com/in/enrizky-brillian/)
-- GitHub: [github.com/billy-enrizky](https://github.com/billy-enrizky)
-- Email: [billy.suharno@gmail.com](mailto:billy.suharno@gmail.com)
+## Selected projects
 
-If you are building agentic AI, applied machine learning systems, or production AI products, feel free to connect.
+- **[OpenBrowser](https://github.com/billy-enrizky/openbrowser-ai)**: An open-source Python browser-agent framework using raw Chrome CDP. It includes a CLI, a single-tool MCP server, persistent execution, and model-provider adapters. [Read the CLI and MCP comparison](https://docs.openbrowser.me/comparison).
+- **[Context Atlas, Jev + Laya](https://chromewebstore.google.com/detail/context-atlas-find-what-m/plehanpnecnjdbkcmbhgphhglkkkgfhd?authuser=1&hl=en&pli=1)**: A Chrome extension for local page search, on-device inference, and answers linked to their source passages, with optional cloud ranking. [Read the article](https://openbrowser-landing.pages.dev/context-atlas-blog/).
+- **Inference kernel optimization**: Benchmarked H200 kernels for dense projection, MoE, attention decoding, and decoder workloads, measuring per-kernel speedups of 1.53x, 1.96x, 1.90x, and 1.77x, respectively.
+
+## Research and benchmarks
+
+- **[Multi-Token Prediction benchmark](https://openbrowser.me/mtp)**: Completed 144 of 144 A/B runs across four GPU types and three prompt regimes. The benchmark separates MTP gains from inference-engine differences to show when speculative decoding helps.
+- **[Browser-in-the-Loop: Reinforcement Fine-Tuning LLM Agents for Web Form Filling](https://www.researchgate.net/publication/403258687_Browser-in-the-Loop_Reinforcement_Fine-Tuning_LLM_Agents_for_Web_Form_Filling)**: STAD68 final course paper, 2026. QLoRA and online GRPO raised validation reward from 0.614 to 0.670 on live Chromium form tasks.
+- **[Concentrate or Collapse: When Reinforcement Learning Meets Diffusion Language Models for Web Planning](https://www.researchgate.net/publication/403258870_Concentrate_or_Collapse_When_Reinforcement_Learning_Meets_Diffusion_Language_Models_for_Web_Planning)**: STAD80 course paper, 2026. Compared Qwen3-8B, ReFusion-8B, and FS-DFM-1.3B on 1,240 browser tasks, measuring exact task completion separately from parser validity.
+
+## Education and awards
+
+- **Georgia Institute of Technology**: MS in Computer Science, Artificial Intelligence specialization (2026 to present).
+- **University of Toronto**: Honours Bachelor of Science with High Distinction, CGPA 3.87/4.00. Data Science and Machine Learning Specialist, Computer Science major, and Economics minor.
+- **Awards**: Dean's List (2023-2025), T-CAIREM Research Award, and Advanced Indonesian Scholarship.
